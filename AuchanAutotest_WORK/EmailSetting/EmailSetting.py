@@ -26,11 +26,11 @@ import time
 """Настройки почты"""
 username = 'spkobra@mail.ru'
 mail_sender = 'spkobra@mail.ru'
-mail_receiver = 'spkobra2@gmail.com', 'olechka56741@gmail.com', 'ashnayder@atalan.net', 'asidorenko@atalan.net', 'dsavinov@atalan.net', 'ekozlov@atalan.net'#, 'ecommerce_it@auchan.ru' , 'ashnayder@atalan.net', 'asidorenko@atalan.net'
+mail_receiver = 'spkobra2@gmail.com'
 mail_receiver_to_spkobra2gmailcom = 'spkobra2@gmail.com'
-mail_receiver_PROP = 'spkobra2@gmail.com', 'artem@atalan.net'
-mail_sender_login = 'spkobra@mail.ru'
-mail_sender_password = 'CobrAPronyA032986'
+mail_receiver_PROP = 'spkobra2@gmail.com'
+mail_sender_login = 'LOGIN' 
+mail_sender_password = 'PASSWORD'
 mail_server = "smtp.mail.ru"
 subject = u'Автотест Auchan' #Тема письма
 subject_PROP = u'Автотест подборщик' #Тема письма
