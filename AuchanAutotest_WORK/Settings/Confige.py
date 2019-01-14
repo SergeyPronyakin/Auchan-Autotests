@@ -11,8 +11,8 @@ preprod = 'https://auchan4.atalan.net'
 preprod_auth = 'https://auchan4.atalan.net/pokupki/customer/account/create/'
 
 
-email_customer = "spronyakin2017@yandex.ru"
-password_customer = "12345670"
+email_customer = "email_customer"
+password_customer = "password_customer"
 result_test_for_mail = []
 result_test_for_mail_PROP = []
 
