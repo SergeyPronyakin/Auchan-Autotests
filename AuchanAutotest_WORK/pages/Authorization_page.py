@@ -11,7 +11,7 @@ from selenium.webdriver.common.action_chains import ActionChains
 import time
 
 class AuthorizationPage():
-    """Страница авторизации и регистрании пользователя https://www.auchan.ru/pokupki/customer/account/create/"""
+    """Страница авторизации и регистрации пользователя https://www.auchan.ru/pokupki/customer/account/create/"""
 
 
     def __init__(self, driver, site):
@@ -27,7 +27,7 @@ class AuthorizationPage():
 
 
     def click_authorization_tab(self):
-        """Клик по вкладке авотризации"""
+        """Клик по вкладке авторизации"""
 
         self.wait.until(EC.presence_of_element_located((By.XPATH, '/html/body/div[1]/div/section[2]/div/section/header/div[1]'))).click()
         #self.driver.find_element_by_xpath('/html/body/div[1]/div/section[2]/div/section/header/div[1]').click()
