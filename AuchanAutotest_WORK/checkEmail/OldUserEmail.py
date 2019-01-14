@@ -13,8 +13,8 @@ class OldUserEmail():
 
         HOST = "imap.yandex.ru"
         PORT = 993
-        USER = "spronyakin2017"
-        PASSWORD = "CobrA69"
+        USER = "USER"
+        PASSWORD = "PASSWORD"
 
         connection = IMAP4_SSL(host=HOST, port=PORT)
         connection.login(user=USER, password=PASSWORD)
