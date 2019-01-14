@@ -106,13 +106,5 @@ class AuchanRequests():
             EmailSetting.send_mail_without_screen(
                 EmailSetting.mail_creat(str(auchanRequests.split_array(str(result_test_for_mail)))))
 
-        # except:
-        #     result_test_for_mail.append(
-        #         EmailSetting.result_test_fail(
-        #             'Запуск тестов по проверке StatusCode невозможен. Попытка будет осуществлена позднее, согдасно кронлисту',
-        #             'FAIL'))
-        #     EmailSetting.send_mail_without_screen(
-        #         EmailSetting.mail_creat(str(auchanRequests.split_array(str(result_test_for_mail)))))
-
-
+       
 auchanRequests = AuchanRequests()
