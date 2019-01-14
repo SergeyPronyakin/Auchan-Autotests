@@ -256,7 +256,7 @@ class Application:
 
 
     def delivery_to_home_old_customer_and_check_kopeyka(self):
-        """Заказ на дом зарегистрированным пользователем с функией проверки копеек в цене"""
+        """Заказ на дом зарегистрированным пользователем с функцией проверки копеек в цене"""
         #try:
 
         self.catalog_page.close_insider_frame2()
@@ -269,7 +269,7 @@ class Application:
         self.main_page.check_kopeyka(Locators.price_mainpage, location="Каталог второго уровня.")
 
         self.catalog_page.close_insider_frame2()
-        self.product_page.enter_in_product_check_stock_and_add_to_cart() #Включает в себя проверку купеек в виджете
+        self.product_page.enter_in_product_check_stock_and_add_to_cart() #Включает в себя проверку копеек в виджете
         self.main_page.check_kopeyka(Locators.price_product_cart, location="Карточка товара.")
         self.main_page.check_kopeyka(Locators.price_close_vidget, location="Цена закрытого виджета корзины.")
         self.main_page.go_to_cart_from_widget_and_check_kopeyka()
@@ -304,7 +304,7 @@ class Application:
 
 
     def delivery_to_home_old_customer(self, category1):
-        """Заказ на до зарегистрированным пользователем"""
+        """Заказ на дом зарегистрированным пользователем"""
 
         print('ТЕСТ: заказ на дом старый пользователь')
         try:
