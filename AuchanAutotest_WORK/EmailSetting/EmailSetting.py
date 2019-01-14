@@ -122,7 +122,7 @@ class EmailSetting():
                 encoders.encode_base64(file)  # Содержимое должно кодироваться как Base64
                 file.add_header('Content-Disposition', 'attachment', filename=filename) # Добавляем заголовки
                 multy_msg.attach(file)  # Присоединяем скриншоты
-        # Отпавляем письмо
+        # Отправляем письмо
         server.starttls()
         server.ehlo()
         server.login(username, mail_sender_password)
@@ -171,7 +171,7 @@ class EmailSetting():
                 encoders.encode_base64(file)  # Содержимое должно кодироваться как Base64
                 file.add_header('Content-Disposition', 'attachment', filename=filename) # Добавляем заголовки
                 multy_msg.attach(file)  # Присоединяем скриншоты
-        # Отпавляем письмо
+        # Отправляем письмо
         server.starttls()
         server.ehlo()
         server.login(username, mail_sender_password)
